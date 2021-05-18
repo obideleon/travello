@@ -1,11 +1,22 @@
 // HERO EXCLUSIVE OFFERS
 #hero,
-#exclusive-offers {
+#exclusive-offers,
+#blog,
+#contact {
   background-color: $COLOR_BLUE_DARK;
   color: $COLOR_WHITE;
 }
 
 .hero__subtitle,
-.exclusive-offers__subtitle {
+.exclusive-offers__subtitle,
+.about__subtitle,
+.blog__news-description,
+.contact__subtitle,
+.contact__email {
   color: $COLOR_WHITE_50A;
+}
+
+// FOOTER
+#footer {
+  background-color: $COLOR_BLUE_SUPER_DARK;
 }

@@ -536,14 +536,24 @@ h3,
 }
 
 #hero,
-#exclusive-offers {
+#exclusive-offers,
+#blog,
+#contact {
   background-color: #11253a;
   color: #fff;
 }
 
 .hero__subtitle,
-.exclusive-offers__subtitle {
+.exclusive-offers__subtitle,
+.about__subtitle,
+.blog__news-description,
+.contact__subtitle,
+.contact__email {
   color: rgba(255, 255, 255, 0.5);
+}
+
+#footer {
+  background-color: #0c1a29;
 }
 
 .btn {
