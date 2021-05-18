@@ -6,8 +6,32 @@
 
 .d-center {
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.px-23 {
+  padding: 0 23px;
+}
+
+.py-50 {
+  padding: 50px 0;
+}
+
+.py-100 {
+  padding: 100px 0;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.divider {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -147,23 +171,28 @@ table {
 
 html {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 *,
 *:before,
 *:after {
   -webkit-box-sizing: inherit;
-  box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
 }
 
 h1,
 h2,
 h3,
 .btn {
-  font-family: 'Lexend Zetta', sans-serif;
+  font-family: "Lexend Zetta", sans-serif;
 }
 
 .btn,
@@ -263,7 +292,7 @@ h3,
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-top: -30px;
 }
 
@@ -546,14 +575,16 @@ h3,
 .hero__subtitle,
 .exclusive-offers__subtitle,
 .about__subtitle,
-.blog__news-description,
 .contact__subtitle,
+.footer__subtitle,
+.blog__news-description,
 .contact__email {
   color: rgba(255, 255, 255, 0.5);
 }
 
 #footer {
   background-color: #0c1a29;
+  color: #fff;
 }
 
 .btn {

@@ -10,8 +10,9 @@
 .hero__subtitle,
 .exclusive-offers__subtitle,
 .about__subtitle,
-.blog__news-description,
 .contact__subtitle,
+.footer__subtitle,
+.blog__news-description,
 .contact__email {
   color: $COLOR_WHITE_50A;
 }
@@ -19,4 +20,5 @@
 // FOOTER
 #footer {
   background-color: $COLOR_BLUE_SUPER_DARK;
+  color: $COLOR_WHITE;
 }
