@@ -6,8 +6,8 @@
 
 .d-center {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -147,23 +147,23 @@ table {
 
 html {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-size: 16px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 *,
 *:before,
 *:after {
   -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 h1,
 h2,
 h3,
 .btn {
-  font-family: "Lexend Zetta", sans-serif;
+  font-family: 'Lexend Zetta', sans-serif;
 }
 
 .btn,
@@ -263,7 +263,7 @@ h3,
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin-top: -30px;
 }
 
