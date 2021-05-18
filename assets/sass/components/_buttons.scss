@@ -1,0 +1,28 @@
+.btn {
+  padding: 14px 36px;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: -0.1875rem;
+
+  &.btn--primary {
+    background-color: $COLOR_ORANGE;
+    border: 1px solid $COLOR_ORANGE;
+  }
+
+  &.btn--primary-dark {
+    background-color: $COLOR_GREEN;
+    border: 1px solid $COLOR_GREEN;
+  }
+
+  &.btn--secondary {
+    background-color: $COLOR_WHITE;
+    color: $COLOR_ORANGE;
+    border: 1px solid $COLOR_ORANGE;
+  }
+
+  &.btn--secondary-dark {
+    color: $COLOR_WHITE;
+    border: 1px solid $COLOR_WHITE;
+  }
+}

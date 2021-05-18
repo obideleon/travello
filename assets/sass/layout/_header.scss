@@ -1,0 +1,13 @@
+#header {
+  background-color: $COLOR_BLUE_DARK;
+
+  .header__logo {
+    color: #fff;
+    margin-right: auto;
+  }
+
+  .header__menu-bar {
+    padding: 16px 14px;
+    border: 1px solid $COLOR_WHITE_30A;
+  }
+}
