@@ -7,6 +7,10 @@
   display: flex;
 }
 
+.no-wrap {
+  flex-wrap: nowrap;
+}
+
 .d-center {
   justify-content: center;
 }
@@ -78,8 +82,16 @@
   margin-bottom: 15px;
 }
 
+.mb-20 {
+  margin-bottom: 20px;
+}
+
 .ml-10-n {
   margin-left: -10px;
+}
+
+.ml-15 {
+  margin-left: 15px;
 }
 
 .mb-30 {
@@ -118,12 +130,23 @@
 }
 
 // Show/Hide Element
-.show-on-tablet {
+.show-on-tablet,
+.show-on-desktop {
   display: none;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .show-on-tablet {
-    display: unset;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .show-on-mobile {
+    display: none;
+  }
+
+  .show-on-desktop {
+    display: block;
   }
 }

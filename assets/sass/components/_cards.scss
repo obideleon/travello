@@ -1,3 +1,4 @@
+// Exclusive Offers
 .exclusive-offers__card {
   width: 100%;
   height: 400px;
@@ -25,5 +26,23 @@
     border-radius: 50%;
     margin-left: -0.5rem;
     text-align: center;
+  }
+}
+
+// Adventure
+.adventure__card {
+  max-width: 270px;
+  width: 100%;
+  height: 352px;
+
+  .adventure__details {
+    height: 50%;
+    background-color: $COLOR_GRAY_LIGHT;
+    padding: 24px 32px;
+  }
+
+  .adventure__img {
+    width: 100%;
+    height: 50%;
   }
 }

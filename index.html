@@ -12,6 +12,10 @@
       rel="stylesheet"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
     <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
   <body>
@@ -206,19 +210,177 @@
           </div>
         </div>
 
-        <div class="row">
-          <div class="col col-md-4 col-xl-3"></div>
-          <div class="col col-md-4 col-xl-3"></div>
-          <div class="col col-md-4 col-xl-3"></div>
-          <div class="col col-xl-3"></div>
+        <!-- start carousel -->
+        <div
+          class="carousel show-on-mobile mb-50"
+          data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": false, "pageDots": false,
+          "wrapAround": true }'
+        >
+          <div class="adventure__card ml-15">
+            <div class="adventure__details">
+              <p class="text-big mb-5">Rome, Italy</p>
+              <p class="text-small mb-20">12-24 Jun 2021</p>
+              <h3 class="h-3">$349</h3>
+            </div>
+            <img
+              class="adventure__img"
+              src="./assets/img/rome-and-san-francisco.png"
+              alt=""
+            />
+          </div>
+          <div class="adventure__card ml-15">
+            <div class="adventure__details">
+              <p class="text-big mb-5">New York City, USA</p>
+              <p class="text-small mb-20">12-24 Jun 2021</p>
+              <h3 class="h-3">$200</h3>
+            </div>
+            <img
+              class="adventure__img"
+              src="./assets/img/new-york.png"
+              alt=""
+            />
+          </div>
+          <div class="adventure__card ml-15">
+            <div class="adventure__details">
+              <p class="text-big mb-5">Barcelona, Spain</p>
+              <p class="text-small mb-20">12-24 Jun 2021</p>
+              <h3 class="h-3">$1200</h3>
+            </div>
+            <img
+              class="adventure__img"
+              src="./assets/img/barcelona.png"
+              alt=""
+            />
+          </div>
+          <div class="adventure__card ml-15">
+            <div class="adventure__details">
+              <p class="text-big mb-5">Paris, France</p>
+              <p class="text-small mb-20">12-24 Jun 2021</p>
+              <h3 class="h-3">$569</h3>
+            </div>
+            <img class="adventure__img" src="./assets/img/paris.png" alt="" />
+          </div>
         </div>
+        <!-- end carousel -->
 
-        <div class="row">
-          <div class="col col-md-4 col-xl-3"></div>
-          <div class="col col-md-4 col-xl-3"></div>
-          <div class="col col-md-4 col-xl-3"></div>
-          <div class="col col-xl-3"></div>
+        <!-- start cards -->
+        <div class="show-on-desktop">
+          <div class="row mb-50">
+            <div class="col col-xl-3">
+              <div class="adventure__card">
+                <div class="adventure__details">
+                  <p class="text-big mb-5">Rome, Italy</p>
+                  <p class="text-small mb-20">12-24 Jun 2021</p>
+                  <h3 class="h-3">$349</h3>
+                </div>
+                <img
+                  class="adventure__img"
+                  src="./assets/img/rome-and-san-francisco.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col col-xl-3">
+              <div class="adventure__card">
+                <div class="adventure__details">
+                  <p class="text-big mb-5">Rome, Italy</p>
+                  <p class="text-small mb-20">12-24 Jun 2021</p>
+                  <h3 class="h-3">$349</h3>
+                </div>
+                <img
+                  class="adventure__img"
+                  src="./assets/img/rome-and-san-francisco.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col col-xl-3">
+              <div class="adventure__card">
+                <div class="adventure__details">
+                  <p class="text-big mb-5">Rome, Italy</p>
+                  <p class="text-small mb-20">12-24 Jun 2021</p>
+                  <h3 class="h-3">$349</h3>
+                </div>
+                <img
+                  class="adventure__img"
+                  src="./assets/img/rome-and-san-francisco.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col col-xl-3">
+              <div class="adventure__card">
+                <div class="adventure__details">
+                  <p class="text-big mb-5">Rome, Italy</p>
+                  <p class="text-small mb-20">12-24 Jun 2021</p>
+                  <h3 class="h-3">$349</h3>
+                </div>
+                <img
+                  class="adventure__img"
+                  src="./assets/img/rome-and-san-francisco.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col col-xl-3">
+              <div class="adventure__card">
+                <div class="adventure__details">
+                  <p class="text-big mb-5">Rome, Italy</p>
+                  <p class="text-small mb-20">12-24 Jun 2021</p>
+                  <h3 class="h-3">$349</h3>
+                </div>
+                <img
+                  class="adventure__img"
+                  src="./assets/img/rome-and-san-francisco.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col col-xl-3">
+              <div class="adventure__card">
+                <div class="adventure__details">
+                  <p class="text-big mb-5">Rome, Italy</p>
+                  <p class="text-small mb-20">12-24 Jun 2021</p>
+                  <h3 class="h-3">$349</h3>
+                </div>
+                <img
+                  class="adventure__img"
+                  src="./assets/img/rome-and-san-francisco.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col col-xl-3">
+              <div class="adventure__card">
+                <div class="adventure__details">
+                  <p class="text-big mb-5">Rome, Italy</p>
+                  <p class="text-small mb-20">12-24 Jun 2021</p>
+                  <h3 class="h-3">$349</h3>
+                </div>
+                <img
+                  class="adventure__img"
+                  src="./assets/img/rome-and-san-francisco.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col col-xl-3">
+              <div class="adventure__card">
+                <div class="adventure__details">
+                  <p class="text-big mb-5">Rome, Italy</p>
+                  <p class="text-small mb-20">12-24 Jun 2021</p>
+                  <h3 class="h-3">$349</h3>
+                </div>
+                <img
+                  class="adventure__img"
+                  src="./assets/img/rome-and-san-francisco.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
         </div>
+        <!-- end cards -->
 
         <div class="row text-center">
           <div class="col">
@@ -397,5 +559,6 @@
       </div>
     </footer>
     <!-- end footer -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   </body>
 </html>
