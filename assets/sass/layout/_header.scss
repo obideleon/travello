@@ -12,17 +12,18 @@
   }
 }
 
-.card {
-  width: 270px;
-  margin: 0 15px;
+// FOR HERO
+// .card {
+//   width: 270px;
+//   margin: 0 15px;
 
-  &.carousel__card:nth-child(even) {
-    height: 300px;
-    background-color: $COLOR_BLUE;
-  }
+//   &.carousel__card:nth-child(even) {
+//     height: 300px;
+//     background-color: $COLOR_BLUE;
+//   }
 
-  &.carousel__card:nth-child(odd) {
-    height: 150px;
-    background-color: $COLOR_ORANGE;
-  }
-}
+//   &.carousel__card:nth-child(odd) {
+//     height: 150px;
+//     background-color: $COLOR_ORANGE;
+//   }
+// }
