@@ -109,7 +109,6 @@
   width: 95%;
   background-color: rgba(255, 255, 255, 0.08);
   margin: 0 auto;
-  margin-top: 30px;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -647,8 +646,7 @@ h3,
 
 #hero,
 #exclusive-offers,
-#blog,
-#contact {
+#blog-and-contact {
   background-color: #11253a;
   color: #fff;
 }
