@@ -19,6 +19,12 @@
           justify-content: center;
 }
 
+.a-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .space-between {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -79,6 +85,11 @@
   padding-bottom: 100px;
 }
 
+.py-200 {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .mb-5 {
   margin-bottom: 5px;
 }
@@ -117,6 +128,14 @@
 
 .mb-100 {
   margin-bottom: 100px;
+}
+
+.mb-200 {
+  margin-bottom: 200px;
+}
+
+.mb-50-n {
+  margin-bottom: -70%;
 }
 
 .text-center {
@@ -684,6 +703,21 @@ h3,
 #header .header__menu-bar {
   padding: 16px 14px;
   border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.card {
+  width: 270px;
+  margin: 0 15px;
+}
+
+.card.carousel__card:nth-child(even) {
+  height: 300px;
+  background-color: #3a76e5;
+}
+
+.card.carousel__card:nth-child(odd) {
+  height: 150px;
+  background-color: #f07c52;
 }
 
 #hero,

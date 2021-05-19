@@ -11,3 +11,18 @@
     border: 1px solid $COLOR_WHITE_30A;
   }
 }
+
+.card {
+  width: 270px;
+  margin: 0 15px;
+
+  &.carousel__card:nth-child(even) {
+    height: 300px;
+    background-color: $COLOR_BLUE;
+  }
+
+  &.carousel__card:nth-child(odd) {
+    height: 150px;
+    background-color: $COLOR_ORANGE;
+  }
+}
