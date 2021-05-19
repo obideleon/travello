@@ -209,12 +209,14 @@ h3,
   font-size: 3.5rem;
   line-height: 1.14;
   letter-spacing: -0.75rem;
+  margin-left: -0.75rem;
 }
 
 .h-3 {
   font-size: 2.5rem;
   line-height: 1.2;
   letter-spacing: -0.5rem;
+  margin-left: -0.5rem;
 }
 
 .h-4 {
@@ -224,6 +226,7 @@ h3,
 
 .h-5 {
   letter-spacing: 0.1875rem;
+  margin-left: -0.1875rem;
   color: rgba(51, 51, 51, 0.5);
 }
 
