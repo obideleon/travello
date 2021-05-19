@@ -119,6 +119,16 @@
   margin: 0 auto;
 }
 
+.show-on-tablet {
+  display: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .show-on-tablet {
+    display: unset;
+  }
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
