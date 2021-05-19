@@ -7,26 +7,109 @@
   justify-content: center;
 }
 
-.px-23 {
-  padding: 0 23px;
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+// PADDING
+
+// to make side padding 23px
+.px-8 {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pt-15 {
+  padding-top: 15px;
+}
+
+.pt-40 {
+  padding-top: 40px;
 }
 
 .py-50 {
-  padding: 50px 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.pt-50 {
+  padding-top: 50px;
 }
 
 .py-100 {
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .pt-100 {
   padding-top: 100px;
 }
 
+.pb-70 {
+  padding-bottom: 70px;
+}
+
 .pb-100 {
   padding-bottom: 100px;
 }
 
-.divider {
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+// .divider {
+//   border-top: 1px solid rgba(255, 255, 255, 0.08);
+// }
+
+// MARGIN
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.ml-10-n {
+  margin-left: -10px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-80 {
+  margin-bottom: 80px;
+}
+
+// TEXT-ALIGN
+.text-center {
+  text-align: center;
+}
+
+// DIVIDER
+.divider:after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 95%;
+  background-color: rgba(255, 255, 255, 0.08);
+  margin: 0 auto;
+  margin-top: 30px;
 }
