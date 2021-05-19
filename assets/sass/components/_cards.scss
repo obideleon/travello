@@ -1,0 +1,29 @@
+.exclusive-offers__card {
+  width: 100%;
+  height: 400px;
+  text-align: left;
+
+  .exclusive-offers__img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.exclusive-offers__overlay {
+  position: absolute;
+  top: 0;
+  padding: 32px;
+
+  .exclusive-offers__country {
+    color: $COLOR_WHITE_50A;
+  }
+
+  .exclusive-offers__pricing {
+    padding: 48px 25px;
+    background-color: $COLOR_ORANGE;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: -0.5rem;
+    text-align: center;
+  }
+}

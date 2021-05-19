@@ -1,4 +1,8 @@
 // UTILITY
+.p-relative {
+  position: relative;
+}
+
 .d-flex {
   display: flex;
 }
@@ -92,6 +96,10 @@
 
 .mb-80 {
   margin-bottom: 80px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
 }
 
 // TEXT-ALIGN

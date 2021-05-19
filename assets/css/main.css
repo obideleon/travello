@@ -1,3 +1,7 @@
+.p-relative {
+  position: relative;
+}
+
 .d-flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -96,6 +100,10 @@
 
 .mb-80 {
   margin-bottom: 80px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
 }
 
 .text-center {
@@ -705,5 +713,35 @@ h3,
 .btn.btn--secondary-dark {
   color: #fff;
   border: 1px solid #fff;
+}
+
+.exclusive-offers__card {
+  width: 100%;
+  height: 400px;
+  text-align: left;
+}
+
+.exclusive-offers__card .exclusive-offers__img {
+  width: 100%;
+  height: 100%;
+}
+
+.exclusive-offers__overlay {
+  position: absolute;
+  top: 0;
+  padding: 32px;
+}
+
+.exclusive-offers__overlay .exclusive-offers__country {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.exclusive-offers__overlay .exclusive-offers__pricing {
+  padding: 48px 25px;
+  background-color: #f07c52;
+  display: inline-block;
+  border-radius: 50%;
+  margin-left: -0.5rem;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
