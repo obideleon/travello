@@ -131,8 +131,8 @@
   margin-bottom: -70%;
 }
 
-.mt-50 {
-  margin-top: 50px;
+.mt-20 {
+  margin-top: 20px;
 }
 
 // TEXT-ALIGN
@@ -156,6 +156,12 @@
 .show-on-tablet,
 .show-on-desktop {
   display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .divider:after {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
