@@ -177,6 +177,18 @@
   }
 }
 
+.flickity-page-dots .dot {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  background: transparent;
+  border: 2px solid #f07c52;
+}
+
+.flickity-page-dots .dot.is-selected {
+  background: #f07c52;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)

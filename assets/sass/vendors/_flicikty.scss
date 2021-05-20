@@ -1,0 +1,11 @@
+.flickity-page-dots .dot {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  background: transparent;
+  border: 2px solid $COLOR_ORANGE;
+}
+
+.flickity-page-dots .dot.is-selected {
+  background: $COLOR_ORANGE;
+}
