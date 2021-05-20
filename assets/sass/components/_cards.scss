@@ -157,6 +157,30 @@
   height: 40%;
 }
 
+// About
+.about__card-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.left {
+  width: 70%;
+  height: 340px;
+  background: url(./../img/image-placeholder.png) no-repeat center / cover;
+}
+
+.right {
+  width: 50%;
+  height: 230px;
+  background: linear-gradient(180deg, #dd6f5e 0%, #f07c52 99.92%);
+  margin-left: -80px;
+}
+
+// Media Queries
 @media screen and (min-width: 1200px) {
   .blog__card {
     height: 560px;
