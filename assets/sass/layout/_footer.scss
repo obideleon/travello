@@ -3,15 +3,40 @@
   margin-left: -0.18rem;
 }
 
-.footer__copyright {
-  max-width: 194px;
-}
-
 // SOCIAL NAV
 .footer__social-menu {
   display: flex;
 
   .footer__social:not(:last-child) {
     margin-right: 8px;
+  }
+}
+
+.footer__tos {
+  justify-content: space-between;
+}
+
+.footer__copyright {
+  color: $COLOR_WHITE_50A;
+}
+
+@media screen and (max-width: 1199px) {
+  .footer__copyright-box {
+    justify-content: center;
+  }
+
+  .footer__tos {
+    justify-content: space-around;
+  }
+
+  .footer__copyright {
+    max-width: 194px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__copyright {
+    margin-left: -10px;
   }
 }

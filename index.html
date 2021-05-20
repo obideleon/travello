@@ -574,11 +574,13 @@
         </div>
 
         <div class="row mb-40">
-          <div class="col col-xl-9">
-            <h2 class="h-3">Read Our Travel Articles</h2>
+          <div class="col col-xl-6">
+            <h2 class="h-3 blog__title">Read Our Travel Articles</h2>
           </div>
-          <div class="col col-xl-3 mb-50">
-            <a href="#" class="btn btn--secondary-dark">See More</a>
+          <div class="col col-xl-6 mb-50">
+            <div class="blog__title-btn d-flex">
+              <a href="#" class="btn btn--secondary-dark">See More</a>
+            </div>
           </div>
         </div>
 
@@ -647,31 +649,42 @@
 
         <!-- start contact -->
         <div class="row pt-50">
-          <div class="col col-xl-6"></div>
           <div class="col col-xl-6">
-            <h5 class="h-5 contact__subtitle mb-30">Contact</h5>
-            <h2 class="h-3 mb-30">Get In Touch With Us</h2>
-            <p class="text-big mb-30">
-              Separated they live in Bookmarksgrove right at the coast of the
-              Semantics, a large language.
-            </p>
-            <p class="h-4 mb-15">
+            <div class="map-container">
               <img
-                class="contact__icon"
-                src="./assets/img/tel-icon.svg"
-                alt=""
+                class="contact__map"
+                src="https://api.mapbox.com/styles/v1/obideleon/ckowmte2r0q2518mv7wodqwm5/static/pin-l-4+285A98(-73.7638,42.6564)/-73.7638,42.6564,13,0/600x300@2x?access_token=pk.eyJ1Ijoib2JpZGVsZW9uIiwiYSI6ImNrazhhNW14NTBpbTMybmxucXFpbW52MTYifQ.ifsqiGFY1vjsmC16Cn7gDA"
+                alt="Mapbox Map of -73.7638,42.6564"
               />
-              +1 (234) 567-89-02
-            </p>
-            <p class="h-4 contact__email mb-50">
-              <img
-                class="contact__icon"
-                src="./assets/img/email-icon.svg"
-                alt=""
-              />
-              hello@travello.com
-            </p>
-            <a href="#" class="btn btn--primary-dark">Contact Us</a>
+            </div>
+          </div>
+
+          <div class="col col-xl-6">
+            <div class="contact__box">
+              <h5 class="h-5 contact__subtitle mb-30">Contact</h5>
+              <h2 class="h-3 mb-30">Get In Touch With Us</h2>
+              <p class="text-big mb-30">
+                Separated they live in Bookmarksgrove right at the coast of the
+                Semantics, a large language.
+              </p>
+              <p class="h-4 mb-15">
+                <img
+                  class="contact__icon"
+                  src="./assets/img/tel-icon.svg"
+                  alt=""
+                />
+                +1 (234) 567-89-02
+              </p>
+              <p class="h-4 contact__email mb-50">
+                <img
+                  class="contact__icon"
+                  src="./assets/img/email-icon.svg"
+                  alt=""
+                />
+                hello@travello.com
+              </p>
+              <a href="#" class="btn btn--primary-dark">Contact Us</a>
+            </div>
           </div>
         </div>
         <!-- end contact -->
@@ -750,13 +763,15 @@
         </div>
 
         <div class="row pt-50">
-          <div class="col col-xl-6 d-flex d-center">
-            <p class="text footer__copyright text-center">
-              Copyright © 2020 Laaqiq. All Rights Reserved.
-            </p>
+          <div class="col col-xl-9">
+            <div class="d-flex footer__copyright-box">
+              <p class="text footer__copyright">
+                Copyright © 2020 Laaqiq. All Rights Reserved.
+              </p>
+            </div>
           </div>
-          <div class="col col-xl-6">
-            <div class="d-flex space-around">
+          <div class="col col-xl-3">
+            <div class="footer__tos d-flex">
               <p class="text">Terms of Use</p>
               <p class="text">Privacy Policy</p>
             </div>

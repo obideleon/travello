@@ -15,6 +15,10 @@
   justify-content: center;
 }
 
+.d-end {
+  justify-content: flex-end;
+}
+
 .a-center {
   align-items: center;
 }
@@ -83,6 +87,10 @@
 }
 
 // MARGIN
+.ml-auto {
+  margin-left: auto;
+}
+
 .mb-5 {
   margin-bottom: 5px;
 }
