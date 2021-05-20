@@ -188,7 +188,7 @@
               </div>
             </div>
           </div>
-          <div class="col col-md-6 show-on-tablet">
+          <div class="col col-md-6 col-xl-4 show-on-tablet">
             <div class="exclusive-offers__card p-relative">
               <img
                 class="exclusive-offers__img"
@@ -198,7 +198,9 @@
               <div class="exclusive-offers__overlay">
                 <h3 class="h-3">Barcelona</h3>
                 <div class="text exclusive-offers__country mb-100">Spain</div>
-                <h3 class="h-3 exclusive-offers__pricing">$199</h3>
+                <div class="exclusive-offers__pricing d-flex d-center a-center">
+                  <h3 class="h-3">$199</h3>
+                </div>
               </div>
             </div>
           </div>
@@ -422,6 +424,44 @@
               Semantics, a large language.
             </p>
             <!-- checkboxes here -->
+            <ul class="d-flex space-between features__checklist mb-40">
+              <li class="features__checklist-box mb-15">
+                <span class="features__checklist-desc"
+                  ><img
+                    class="features__checklist-img"
+                    src="./assets/img/checkbox.svg"
+                    alt=""
+                  />Transfers</span
+                >
+              </li>
+              <li class="features__checklist-box mb-15">
+                <span class="features__checklist-desc"
+                  ><img
+                    class="features__checklist-img"
+                    src="./assets/img/checkbox.svg"
+                    alt=""
+                  />Guides</span
+                >
+              </li>
+              <li class="features__checklist-box mb-15">
+                <span class="features__checklist-desc"
+                  ><img
+                    class="features__checklist-img"
+                    src="./assets/img/checkbox.svg"
+                    alt=""
+                  />Optimal</span
+                >
+              </li>
+              <li class="features__checklist-box mb-15">
+                <span class="features__checklist-desc"
+                  ><img
+                    class="features__checklist-img"
+                    src="./assets/img/checkbox.svg"
+                    alt=""
+                  />Locals</span
+                >
+              </li>
+            </ul>
 
             <a href="#" class="btn btn--primary">Service</a>
           </div>
@@ -460,72 +500,9 @@
                 </p>
               </div>
             </div>
-            <p class="mt-50">Lorem ipsum dolor sit amet.</p>
-          </div>
-          <div class="testimonial__box">
-            <div class="testimonial__card">
-              <div class="testimonial__bubble">
-                <p class="text">
-                  "When she reached the first hills of the Italic Mountains, she
-                  had a last view back on the skyline of her hometown
-                  Bookmarksgrove, the headline of Alphabet Village and the
-                  subline of her own road"
-                </p>
-              </div>
+            <div class="testimonial__author mt-50">
+              <p>iquwe</p>
             </div>
-            <p class="mt-50">Lorem ipsum dolor sit amet.</p>
-          </div>
-          <div class="testimonial__box">
-            <div class="testimonial__card">
-              <div class="testimonial__bubble">
-                <p class="text">
-                  "When she reached the first hills of the Italic Mountains, she
-                  had a last view back on the skyline of her hometown
-                  Bookmarksgrove, the headline of Alphabet Village and the
-                  subline of her own road"
-                </p>
-              </div>
-            </div>
-            <p class="mt-50">Lorem ipsum dolor sit amet.</p>
-          </div>
-          <div class="testimonial__box">
-            <div class="testimonial__card">
-              <div class="testimonial__bubble">
-                <p class="text">
-                  "When she reached the first hills of the Italic Mountains, she
-                  had a last view back on the skyline of her hometown
-                  Bookmarksgrove, the headline of Alphabet Village and the
-                  subline of her own road"
-                </p>
-              </div>
-            </div>
-            <p class="mt-50">Lorem ipsum dolor sit amet.</p>
-          </div>
-          <div class="testimonial__box">
-            <div class="testimonial__card">
-              <div class="testimonial__bubble">
-                <p class="text">
-                  "When she reached the first hills of the Italic Mountains, she
-                  had a last view back on the skyline of her hometown
-                  Bookmarksgrove, the headline of Alphabet Village and the
-                  subline of her own road"
-                </p>
-              </div>
-            </div>
-            <p class="mt-50">Lorem ipsum dolor sit amet.</p>
-          </div>
-          <div class="testimonial__box">
-            <div class="testimonial__card">
-              <div class="testimonial__bubble">
-                <p class="text">
-                  "When she reached the first hills of the Italic Mountains, she
-                  had a last view back on the skyline of her hometown
-                  Bookmarksgrove, the headline of Alphabet Village and the
-                  subline of her own road"
-                </p>
-              </div>
-            </div>
-            <p class="mt-50">Lorem ipsum dolor sit amet.</p>
           </div>
         </div>
         <!-- DOT DOT DOT -->
@@ -548,7 +525,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row mb-50">
           <div class="col">
             <a href="#" class="btn btn--secondary-dark">See More</a>
           </div>
@@ -579,8 +556,22 @@
               Separated they live in Bookmarksgrove right at the coast of the
               Semantics, a large language.
             </p>
-            <h4 class="h-4 mb-15">+1 (234) 567-89-02</h4>
-            <h5 class="h-5 contact__email mb-50">travel@adventure.com</h5>
+            <p class="h-4 mb-15">
+              <img
+                class="contact__icon"
+                src="./assets/img/tel-icon.svg"
+                alt=""
+              />
+              +1 (234) 567-89-02
+            </p>
+            <p class="h-4 contact__email mb-50">
+              <img
+                class="contact__icon"
+                src="./assets/img/email-icon.svg"
+                alt=""
+              />
+              hello@travello.com
+            </p>
             <a href="#" class="btn btn--primary-dark">Contact Us</a>
           </div>
         </div>
@@ -637,7 +628,26 @@
               </li>
             </ul>
           </div>
-          <div class="col col-xl-3"></div>
+          <div class="col col-md-3 col-xl-3">
+            <h5 class="h-5 footer__subtitle mb-15">Social</h5>
+            <ul class="footer__social-menu">
+              <li class="footer__social">
+                <a href="#">
+                  <img src="./assets/img/fb-icon.svg" alt="" />
+                </a>
+              </li>
+              <li class="footer__social">
+                <a href="#">
+                  <img src="./assets/img/twitter-icon.svg" alt="" />
+                </a>
+              </li>
+              <li class="footer__social">
+                <a href="#">
+                  <img src="./assets/img/ig-icon.svg" alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
 
         <div class="row pt-50">

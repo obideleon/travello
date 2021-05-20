@@ -5,3 +5,12 @@
 .footer__copyright {
   max-width: 194px;
 }
+
+// SOCIAL NAV
+.footer__social-menu {
+  display: flex;
+
+  .footer__social:not(:last-child) {
+    margin-right: 8px;
+  }
+}

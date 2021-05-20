@@ -52,6 +52,7 @@
   width: 313px;
   margin: 0 15px;
 }
+
 .testimonial__card {
   width: 100%;
   padding-top: 20px;
@@ -84,4 +85,9 @@
   position: absolute;
   bottom: -12px;
   left: 0;
+}
+
+.testimonial__author {
+  border: 1px solid black;
+  text-align: left;
 }
