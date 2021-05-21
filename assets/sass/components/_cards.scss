@@ -54,7 +54,7 @@
   margin: 0 15px;
 
   &:nth-child(even) .testimonial__img {
-    background-color: $COLOR_ORANGE;
+    background-color: $COLOR_BLUE;
   }
 
   &:nth-child(odd) .testimonial__img {
@@ -135,7 +135,7 @@
 }
 
 .blog__author-img {
-  background-color: $COLOR_BLUE;
+  background-color: $COLOR_GREEN;
   width: 65px;
   height: 65px;
   object-fit: cover;

@@ -1113,7 +1113,7 @@ h3,
 }
 
 .testimonial__box:nth-child(even) .testimonial__img {
-  background-color: #f07c52;
+  background-color: #3a76e5;
 }
 
 .testimonial__box:nth-child(odd) .testimonial__img {
@@ -1195,7 +1195,7 @@ h3,
 }
 
 .blog__author-img {
-  background-color: #3a76e5;
+  background-color: #52aa7f;
   width: 65px;
   height: 65px;
   -o-object-fit: cover;
