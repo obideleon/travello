@@ -16,6 +16,7 @@
       rel="stylesheet"
       href="https://unpkg.com/flickity@2/dist/flickity.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
   <body>
@@ -37,8 +38,8 @@
                 <a href="#">Blog</a>
                 <a href="#">Contact</a>
               </div>
-              <nav>
-                <ul class="main-nav">
+              <nav class="main-nav">
+                <ul class="main-nav__container">
                   <li class="main-nav__link">
                     <a href="#">About</a>
                   </li>
@@ -99,7 +100,11 @@
     <section id="about" class="py-200 px-8">
       <div class="container">
         <div class="row">
-          <div class="col col-md-6 col-xl-6">
+          <div
+            class="col col-md-6 col-xl-6"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
             <div class="row mb-30">
               <div class="col">
                 <h5 class="h-5">About</h5>
@@ -146,7 +151,7 @@
           </div>
           <div class="col col-md-6 col-xl-6">
             <div class="card__overlapping-container">
-              <div class="left">
+              <div class="left" data-aos="fade-right" data-aos-duration="1500">
                 <div class="card__overlapping-content">
                   <p class="card__overlapping-desc">
                     The copy warned the Little Blind Text, that where it cam
@@ -155,7 +160,11 @@
                 </div>
                 <p class="card__overlapping-author">– Alfie Wood</p>
               </div>
-              <div class="right"></div>
+              <div
+                class="right"
+                data-aos="fade-left"
+                data-aos-duration="1500"
+              ></div>
             </div>
           </div>
         </div>
@@ -179,23 +188,11 @@
         </div>
 
         <div class="row mb-80">
-          <div class="col col-md-6 col-xl-4">
-            <div class="exclusive-offers__card p-relative">
-              <img
-                class="exclusive-offers__img"
-                src="./assets/img/rome-and-san-francisco.png"
-                alt=""
-              />
-              <div class="exclusive-offers__overlay">
-                <h3 class="h-3">Rome</h3>
-                <div class="text exclusive-offers__country mb-100">Italy</div>
-                <div class="exclusive-offers__pricing d-flex d-center a-center">
-                  <h3 class="h-3">$199</h3>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col col-md-6 col-xl-4">
+          <div
+            class="col col-md-6 col-xl-4"
+            data-aos="flip-left"
+            data-aos-duration="1000"
+          >
             <div class="exclusive-offers__card p-relative">
               <img
                 class="exclusive-offers__img"
@@ -211,7 +208,31 @@
               </div>
             </div>
           </div>
-          <div class="col col-md-6 col-xl-4">
+          <div
+            class="col col-md-6 col-xl-4"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <div class="exclusive-offers__card p-relative">
+              <img
+                class="exclusive-offers__img"
+                src="./assets/img/rome-and-san-francisco.png"
+                alt=""
+              />
+              <div class="exclusive-offers__overlay">
+                <h3 class="h-3">Rome</h3>
+                <div class="text exclusive-offers__country mb-100">Italy</div>
+                <div class="exclusive-offers__pricing d-flex d-center a-center">
+                  <h3 class="h-3">$199</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col col-md-6 col-xl-4"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <div class="exclusive-offers__card p-relative">
               <img
                 class="exclusive-offers__img"
@@ -227,7 +248,11 @@
               </div>
             </div>
           </div>
-          <div class="col col-md-6 col-xl-4 show-on-tablet">
+          <div
+            class="col col-md-6 col-xl-4 show-on-tablet"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <div class="exclusive-offers__card p-relative">
               <img
                 class="exclusive-offers__img"
@@ -326,7 +351,11 @@
         <div class="show-on-desktop">
           <div class="row mb-50">
             <div class="col col-xl-3">
-              <div class="adventure__card">
+              <div
+                class="adventure__card"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              >
                 <div class="adventure__details">
                   <p class="text-big mb-5">Rome, Italy</p>
                   <p class="text-small mb-20">12-24 Jun 2021</p>
@@ -340,7 +369,11 @@
               </div>
             </div>
             <div class="col col-xl-3">
-              <div class="adventure__card">
+              <div
+                class="adventure__card"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              >
                 <div class="adventure__details">
                   <p class="text-big mb-5">Rome, Italy</p>
                   <p class="text-small mb-20">12-24 Jun 2021</p>
@@ -354,7 +387,11 @@
               </div>
             </div>
             <div class="col col-xl-3">
-              <div class="adventure__card">
+              <div
+                class="adventure__card"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              >
                 <div class="adventure__details">
                   <p class="text-big mb-5">Rome, Italy</p>
                   <p class="text-small mb-20">12-24 Jun 2021</p>
@@ -368,7 +405,11 @@
               </div>
             </div>
             <div class="col col-xl-3">
-              <div class="adventure__card">
+              <div
+                class="adventure__card"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              >
                 <div class="adventure__details">
                   <p class="text-big mb-5">Rome, Italy</p>
                   <p class="text-small mb-20">12-24 Jun 2021</p>
@@ -382,7 +423,11 @@
               </div>
             </div>
             <div class="col col-xl-3">
-              <div class="adventure__card">
+              <div
+                class="adventure__card"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+              >
                 <div class="adventure__details">
                   <p class="text-big mb-5">Rome, Italy</p>
                   <p class="text-small mb-20">12-24 Jun 2021</p>
@@ -396,7 +441,11 @@
               </div>
             </div>
             <div class="col col-xl-3">
-              <div class="adventure__card">
+              <div
+                class="adventure__card"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+              >
                 <div class="adventure__details">
                   <p class="text-big mb-5">Rome, Italy</p>
                   <p class="text-small mb-20">12-24 Jun 2021</p>
@@ -410,7 +459,11 @@
               </div>
             </div>
             <div class="col col-xl-3">
-              <div class="adventure__card">
+              <div
+                class="adventure__card"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+              >
                 <div class="adventure__details">
                   <p class="text-big mb-5">Rome, Italy</p>
                   <p class="text-small mb-20">12-24 Jun 2021</p>
@@ -424,7 +477,11 @@
               </div>
             </div>
             <div class="col col-xl-3">
-              <div class="adventure__card">
+              <div
+                class="adventure__card"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+              >
                 <div class="adventure__details">
                   <p class="text-big mb-5">Rome, Italy</p>
                   <p class="text-small mb-20">12-24 Jun 2021</p>
@@ -471,8 +528,12 @@
 
           <div class="col col-md-6 col-xl-6">
             <div class="card__overlapping-container feature__card">
-              <div class="right"></div>
-              <div class="left">
+              <div
+                class="right"
+                data-aos="fade-right"
+                data-aos-duration="1500"
+              ></div>
+              <div class="left" data-aos="fade-left" data-aos-duration="1500">
                 <div class="card__overlapping-content">
                   <p class="card__overlapping-desc">
                     The copy warned the Little Blind Text, that where it cam
@@ -483,7 +544,11 @@
               </div>
             </div>
           </div>
-          <div class="col col-md-6 col-xl-6">
+          <div
+            class="col col-md-6 col-xl-6"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
             <h5 class="h-5 mb-30">Features</h5>
             <h2 class="h-3 mb-30">Get Unique Experience</h2>
             <p class="text-big mb-30">
@@ -555,6 +620,8 @@
         <div
           class="carousel mb-50"
           data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": false, "wrapAround": true }'
+          data-aos="fade-down"
+          data-aos-duration="1000"
         >
           <div class="testimonial__box">
             <div class="testimonial__card">
@@ -699,7 +766,11 @@
 
         <div class="row mb-80">
           <div class="col col-md-6 col-xl-6">
-            <div class="blog__card">
+            <div
+              class="blog__card"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               <div class="blog__desc-box d-flex space-between">
                 <div class="blog__desc">
                   <p class="blog__date">15 May 2020</p>
@@ -724,7 +795,11 @@
             </div>
           </div>
           <div class="col col-md-6 col-xl-6">
-            <div class="blog__card">
+            <div
+              class="blog__card"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
               <div class="blog__desc-box d-flex space-between">
                 <div class="blog__desc">
                   <p class="blog__date">10 May 2020</p>
@@ -903,24 +978,7 @@
     </footer>
     <!-- end footer -->
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-    <script>
-      function noScroll() {
-        window.scrollTo(0, 0)
-      }
-
-      function toggleNav(x) {
-        x.classList.toggle('change')
-
-        document.getElementById('mySidenav').style.width = x.classList.contains(
-          'change'
-        )
-          ? '100%'
-          : '0'
-
-        x.classList.contains('change')
-          ? window.addEventListener('scroll', noScroll)
-          : window.removeEventListener('scroll', noScroll)
-      }
-    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./assets/js/index.js"></script>
   </body>
 </html>

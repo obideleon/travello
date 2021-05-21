@@ -932,7 +932,7 @@ h3,
 
 .change .bar3 {
   -webkit-transform: rotate(45deg) translate(8px, -8px);
-  transform: rotate(-45deg) translate(8px, -8px);
+  transform: rotate(-45deg) translate(9px, -8px);
 }
 
 .sidenav {
@@ -972,6 +972,21 @@ h3,
   margin-left: 50px;
 }
 
+.main-nav {
+  display: none;
+}
+
+.main-nav .main-nav__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-nav .main-nav__link:not(:last-child) {
+  margin-right: 60px;
+  line-height: 50px;
+}
+
 @media screen and (max-height: 450px) {
   .sidenav {
     padding-top: 15px;
@@ -984,6 +999,9 @@ h3,
 @media screen and (min-width: 1200px) {
   .header__nav-container {
     display: none;
+  }
+  .main-nav {
+    display: unset;
   }
 }
 
