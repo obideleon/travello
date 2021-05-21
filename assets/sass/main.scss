@@ -8,7 +8,8 @@
 @import 'base/reset', 'base/initial', 'base/typography';
 
 // layout/
-@import 'layout/grid', 'layout/header', 'layout/sections', 'layout/footer';
+@import 'layout/grid', 'layout/header', 'layout/sections', 'layout/footer',
+  'layout/navigation';
 
 // components/
 @import 'components/buttons', 'components/cards';

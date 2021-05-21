@@ -26,16 +26,42 @@
           <div class="col">
             <div class="header__nav d-flex">
               <h3 class="header__logo h-3">TVL</h3>
-              <img
-                src="./assets/img/menu-bar.png"
-                alt=""
-                class="header__menu-bar"
-              />
+              <div class="header__nav-container" onclick="toggleNav(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+              <div id="mySidenav" class="sidenav">
+                <a href="#">About</a>
+                <a href="#">Tours</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+              </div>
+              <nav>
+                <ul class="main-nav">
+                  <li class="main-nav__link">
+                    <a href="#">About</a>
+                  </li>
+                  <li class="main-nav__link">
+                    <a href="#">Tours</a>
+                  </li>
+                  <li class="main-nav__link">
+                    <a href="#">Blog</a>
+                  </li>
+                  <li class="main-nav__link">
+                    <a href="#">Contact</a>
+                  </li>
+                  <li class="main-nav__link">
+                    <a class="btn btn--secondary-dark" href="#">Contact</a>
+                  </li>
+                </ul>
+              </nav>
             </div>
           </div>
         </div>
       </div>
     </header>
+
     <!-- end header -->
 
     <!-- start hero -->
@@ -877,5 +903,24 @@
     </footer>
     <!-- end footer -->
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script>
+      function noScroll() {
+        window.scrollTo(0, 0)
+      }
+
+      function toggleNav(x) {
+        x.classList.toggle('change')
+
+        document.getElementById('mySidenav').style.width = x.classList.contains(
+          'change'
+        )
+          ? '100%'
+          : '0'
+
+        x.classList.contains('change')
+          ? window.addEventListener('scroll', noScroll)
+          : window.removeEventListener('scroll', noScroll)
+      }
+    </script>
   </body>
 </html>
