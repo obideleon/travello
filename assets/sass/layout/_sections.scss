@@ -84,8 +84,24 @@
 }
 
 @media screen and (min-width: 1200px) {
+  // Custom Scroll bar
+  ::-webkit-scrollbar-track {
+    background-color: #f5f5f5;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    background-color: #f5f5f5;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: $COLOR_BLUE_SUPER_DARK;
+  }
+  // End Custom Scrollbar
+
   .contact__box {
-    margin-left: 130px;
+    margin-left: 120px;
+    max-width: 400px;
   }
 
   .blog__title {

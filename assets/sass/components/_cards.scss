@@ -7,6 +7,7 @@
   .exclusive-offers__img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
   }
 }
 
@@ -51,6 +52,14 @@
 .testimonial__box {
   width: 313px;
   margin: 0 15px;
+
+  &:nth-child(even) .testimonial__img {
+    background-color: $COLOR_ORANGE;
+  }
+
+  &:nth-child(odd) .testimonial__img {
+    background-color: $COLOR_GREEN;
+  }
 }
 
 .testimonial__card {
@@ -64,6 +73,7 @@
   padding: 48px;
   text-align: left;
   width: 100%;
+  min-height: 352px;
   background-color: $COLOR_GRAY_LIGHT;
 }
 
@@ -125,8 +135,10 @@
 }
 
 .blog__author-img {
+  background-color: $COLOR_BLUE;
   width: 65px;
   height: 65px;
+  object-fit: cover;
   border-radius: 50%;
   margin-top: 15px;
 }
@@ -152,6 +164,7 @@
   width: 100%;
   height: 100%;
   margin-top: 20px;
+  object-fit: cover;
 }
 
 .blog__img-container {
@@ -180,14 +193,6 @@
   }
 }
 
-.feature__card {
-  .left {
-    margin-right: 0;
-    margin-left: -35%;
-    background: linear-gradient(180deg, #3a76e5 0%, #805ed7 100%);
-  }
-}
-
 .left {
   max-width: 155px;
   width: 100%;
@@ -204,7 +209,19 @@
   width: 100%;
   min-height: 340px;
 
-  background: url(./../img/image-placeholder.png) no-repeat center / cover;
+  background: url(./../img/desert.jpg) no-repeat center / cover;
+}
+
+.feature__card {
+  .left {
+    margin-right: 0;
+    margin-left: -35%;
+    background: linear-gradient(180deg, #3a76e5 0%, #805ed7 100%);
+  }
+
+  .right {
+    background: url(./../img/second-feature-card.jpg) no-repeat center / cover;
+  }
 }
 
 // Media Queries

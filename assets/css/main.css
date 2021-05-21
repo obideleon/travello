@@ -826,8 +826,19 @@ h3,
 }
 
 @media screen and (min-width: 1200px) {
+  ::-webkit-scrollbar-track {
+    background-color: #f5f5f5;
+  }
+  ::-webkit-scrollbar {
+    width: 6px;
+    background-color: #f5f5f5;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #0c1a29;
+  }
   .contact__box {
-    margin-left: 130px;
+    margin-left: 120px;
+    max-width: 400px;
   }
   .blog__title {
     max-width: 477px;
@@ -902,6 +913,10 @@ h3,
   .footer__copyright {
     margin-left: -10px;
   }
+}
+
+.header__nav {
+  padding: 8px 0;
 }
 
 .header__nav-container {
@@ -986,7 +1001,14 @@ h3,
 
 .main-nav .main-nav__link:not(:last-child) {
   margin-right: 60px;
-  line-height: 50px;
+  line-height: 40px;
+  padding: 5px 10px;
+}
+
+.main-nav .main-nav__link:not(:last-child):hover {
+  border-bottom: 1px solid #fff;
+  -webkit-transition: 0.2s border ease-in-out;
+  transition: 0.2s border ease-in-out;
 }
 
 @media screen and (max-height: 450px) {
@@ -1045,6 +1067,8 @@ h3,
 .exclusive-offers__card .exclusive-offers__img {
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .exclusive-offers__overlay {
@@ -1088,6 +1112,14 @@ h3,
   margin: 0 15px;
 }
 
+.testimonial__box:nth-child(even) .testimonial__img {
+  background-color: #f07c52;
+}
+
+.testimonial__box:nth-child(odd) .testimonial__img {
+  background-color: #52aa7f;
+}
+
 .testimonial__card {
   width: 100%;
   padding-top: 20px;
@@ -1099,6 +1131,7 @@ h3,
   padding: 48px;
   text-align: left;
   width: 100%;
+  min-height: 352px;
   background-color: #f5f6f8;
 }
 
@@ -1162,8 +1195,11 @@ h3,
 }
 
 .blog__author-img {
+  background-color: #3a76e5;
   width: 65px;
   height: 65px;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 50%;
   margin-top: 15px;
 }
@@ -1189,6 +1225,8 @@ h3,
   width: 100%;
   height: 100%;
   margin-top: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .blog__img-container {
@@ -1221,13 +1259,6 @@ h3,
   margin-bottom: 20px;
 }
 
-.feature__card .left {
-  margin-right: 0;
-  margin-left: -35%;
-  background: -webkit-gradient(linear, left top, left bottom, from(#3a76e5), to(#805ed7));
-  background: linear-gradient(180deg, #3a76e5 0%, #805ed7 100%);
-}
-
 .left {
   max-width: 155px;
   width: 100%;
@@ -1243,7 +1274,18 @@ h3,
   max-width: 270px;
   width: 100%;
   min-height: 340px;
-  background: url(./../img/image-placeholder.png) no-repeat center/cover;
+  background: url(./../img/desert.jpg) no-repeat center/cover;
+}
+
+.feature__card .left {
+  margin-right: 0;
+  margin-left: -35%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3a76e5), to(#805ed7));
+  background: linear-gradient(180deg, #3a76e5 0%, #805ed7 100%);
+}
+
+.feature__card .right {
+  background: url(./../img/second-feature-card.jpg) no-repeat center/cover;
 }
 
 @media screen and (min-width: 768px) {
@@ -1293,19 +1335,5 @@ h3,
   .card__overlapping-author {
     font-size: 16px;
   }
-}
-
-::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: #f5f5f5;
-}
-
-::-webkit-scrollbar {
-  width: 6px;
-  background-color: #f5f5f5;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #0c1a29;
 }
 /*# sourceMappingURL=main.css.map */
