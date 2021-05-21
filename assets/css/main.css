@@ -1112,12 +1112,16 @@ h3,
   margin: 0 15px;
 }
 
-.testimonial__box:nth-child(even) .testimonial__img {
+.testimonial__box:nth-child(odd) .testimonial__img {
   background-color: #3a76e5;
 }
 
-.testimonial__box:nth-child(odd) .testimonial__img {
+.testimonial__box:nth-child(even) .testimonial__img {
   background-color: #52aa7f;
+}
+
+.testimonial__box:nth-child(3n) .testimonial__img {
+  background-color: #f07c52;
 }
 
 .testimonial__card {

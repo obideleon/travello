@@ -53,12 +53,16 @@
   width: 313px;
   margin: 0 15px;
 
-  &:nth-child(even) .testimonial__img {
+  &:nth-child(odd) .testimonial__img {
     background-color: $COLOR_BLUE;
   }
 
-  &:nth-child(odd) .testimonial__img {
+  &:nth-child(even) .testimonial__img {
     background-color: $COLOR_GREEN;
+  }
+
+  &:nth-child(3n) .testimonial__img {
+    background-color: $COLOR_ORANGE;
   }
 }
 
