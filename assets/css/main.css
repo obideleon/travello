@@ -428,6 +428,7 @@ h3,
   width: 100%;
   margin: 0 auto;
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .container-fluid {
@@ -947,12 +948,12 @@ h3,
   overflow-x: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  text-align: right;
+  text-align: center;
   padding-top: 50px;
 }
 
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  padding: 25px 0;
   text-decoration: none;
   font-size: 25px;
   color: #fff;
@@ -1124,6 +1125,7 @@ h3,
 .testimonial__author {
   text-align: left;
   padding-bottom: 50px;
+  margin-left: -15px;
 }
 
 .testimonial__img {
