@@ -164,12 +164,34 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  .card__overlapping-desc {
+    color: $COLOR_WHITE;
+  }
+
+  .card__overlapping-author {
+    line-height: 1rem;
+    color: $COLOR_WHITE_50A;
+  }
+
+  .card__overlapping-content {
+    margin-bottom: 20px;
+  }
+}
+
+.feature__card {
+  .left {
+    margin-right: 0;
+    margin-left: -35%;
+    background: linear-gradient(180deg, #3a76e5 0%, #805ed7 100%);
+  }
 }
 
 .left {
   max-width: 155px;
   width: 100%;
   min-height: 230px;
+  padding: 14px;
 
   background: linear-gradient(180deg, #dd6f5e 0%, #f07c52 99.92%);
   margin-right: -35%;
@@ -222,11 +244,25 @@
       max-width: 270px;
       width: 100%;
       min-height: 400px;
+      padding: 35px;
     }
     .right {
       max-width: 470px;
       width: 100%;
       min-height: 592px;
     }
+  }
+
+  .card__overlapping-desc,
+  .card__overlapping-author {
+    line-height: 32px;
+  }
+
+  .card__overlapping-desc {
+    font-size: 20px;
+  }
+
+  .card__overlapping-author {
+    font-size: 16px;
   }
 }

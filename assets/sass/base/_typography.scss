@@ -50,11 +50,13 @@ h3,
   line-height: 2;
 }
 
-.label {
+.label,
+.card__overlapping-author {
   font-size: 0.75rem;
 }
 
-.text-small {
+.text-small,
+.card__overlapping-desc {
   font-size: 0.875rem;
   line-height: 1.71;
   color: $COLOR_GRAY_50A;
