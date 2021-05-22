@@ -424,6 +424,25 @@ h3,
   line-height: 1.6;
 }
 
+@media screen and (min-width: 1200px) {
+  .h-2 {
+    font-size: 4.5rem;
+    line-height: 1.11;
+  }
+  .h-3 {
+    font-size: 3.5rem;
+    line-height: 1.14;
+    letter-spacing: -0.75rem;
+    margin-left: -0.75rem;
+  }
+  .hero__subtitle {
+    margin-top: 105px;
+  }
+  .hero__title {
+    margin-bottom: 307px;
+  }
+}
+
 .container {
   width: 100%;
   margin: 0 auto;
@@ -770,7 +789,7 @@ h3,
 }
 
 .map-container {
-  width: 100%;
+  max-width: 100%;
   height: 592px;
 }
 
@@ -837,7 +856,7 @@ h3,
     background-color: #0c1a29;
   }
   .contact__box {
-    margin-left: 120px;
+    margin-left: 90px;
     max-width: 400px;
   }
   .blog__title {
@@ -1104,6 +1123,50 @@ h3,
   background-color: #fff;
 }
 
+#about {
+  padding-top: 300px;
+}
+
+.hero__card-box {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  max-width: 100%;
+  -webkit-transform: translateY(130%);
+          transform: translateY(130%);
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.hero__card-box img {
+  width: 270px;
+}
+
+.hero__card-box .hero-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero__card-box .hero__card {
+  margin-left: 15px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 240px;
+          flex: 1 0 240px;
+  text-align: left;
+  color: #333;
+}
+
+.hero__card-box .hero__card .text-small {
+  color: rgba(51, 51, 51, 0.5);
+}
+
 .exclusive-offers__card {
   width: 100%;
   height: 400px;
@@ -1151,6 +1214,8 @@ h3,
 .adventure__card .adventure__img {
   width: 100%;
   height: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .testimonial__box {
@@ -1339,6 +1404,13 @@ h3,
 }
 
 @media screen and (min-width: 768px) {
+  #about {
+    padding-top: 350px;
+  }
+  .hero__card-box {
+    -webkit-transform: translateY(110%);
+            transform: translateY(110%);
+  }
   .about__card-container .left {
     max-width: 185px;
     width: 100%;
@@ -1352,6 +1424,13 @@ h3,
 }
 
 @media screen and (min-width: 1200px) {
+  #about {
+    padding-top: 400px;
+  }
+  .hero__card-box {
+    -webkit-transform: translateY(95%);
+            transform: translateY(95%);
+  }
   .blog__card {
     height: 560px;
   }

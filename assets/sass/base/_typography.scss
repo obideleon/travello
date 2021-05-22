@@ -66,3 +66,25 @@ h3,
   font-size: 1.25rem;
   line-height: 1.6;
 }
+
+@media screen and (min-width: 1200px) {
+  .h-2 {
+    font-size: 4.5rem;
+    line-height: 1.11;
+  }
+
+  .h-3 {
+    font-size: 3.5rem;
+    line-height: 1.14;
+    letter-spacing: -0.75rem;
+    margin-left: -0.75rem;
+  }
+
+  .hero__subtitle {
+    margin-top: 105px;
+  }
+
+  .hero__title {
+    margin-bottom: 307px;
+  }
+}

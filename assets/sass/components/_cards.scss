@@ -1,3 +1,38 @@
+#about {
+  padding-top: 300px;
+}
+
+.hero__card-box {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  max-width: 100%;
+  transform: translateY(130%);
+  z-index: 1;
+  overflow-x: hidden;
+
+  img {
+    width: 270px;
+  }
+
+  .hero-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero__card {
+    margin-left: 15px;
+    flex: 1 0 240px;
+    text-align: left;
+    color: $COLOR_GRAY;
+
+    .text-small {
+      color: $COLOR_GRAY_50A;
+    }
+  }
+}
+
 // Exclusive Offers
 .exclusive-offers__card {
   width: 100%;
@@ -45,6 +80,7 @@
   .adventure__img {
     width: 100%;
     height: 50%;
+    object-fit: cover;
   }
 }
 
@@ -230,6 +266,12 @@
 
 // Media Queries
 @media screen and (min-width: 768px) {
+  #about {
+    padding-top: 350px;
+  }
+  .hero__card-box {
+    transform: translateY(110%);
+  }
   .about__card-container {
     .left {
       max-width: 185px;
@@ -245,6 +287,14 @@
 }
 
 @media screen and (min-width: 1200px) {
+  #about {
+    padding-top: 400px;
+  }
+
+  .hero__card-box {
+    transform: translateY(95%);
+  }
+
   .blog__card {
     height: 560px;
   }
