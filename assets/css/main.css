@@ -768,10 +768,7 @@ h3,
 
 .bnt-hero {
   margin-top: 100px;
-}
-
-#hero {
-  height: 100vh;
+  margin-bottom: 100px;
 }
 
 .hero-image img {
