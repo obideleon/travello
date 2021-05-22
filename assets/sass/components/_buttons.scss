@@ -25,4 +25,30 @@
     color: $COLOR_WHITE;
     border: 1px solid $COLOR_WHITE;
   }
+
+  &:hover {
+    transition: 0.2s ease-out;
+  }
+
+  &.btn--primary:hover {
+    background-color: $COLOR_WHITE;
+    color: $COLOR_ORANGE;
+  }
+
+  &.btn--primary-dark:hover {
+    background-color: $COLOR_WHITE;
+    color: $COLOR_GREEN;
+  }
+
+  &.btn--secondary:hover {
+    background-color: $COLOR_ORANGE;
+    color: $COLOR_WHITE;
+    border: 1px solid $COLOR_ORANGE;
+  }
+
+  &.btn--secondary-dark:hover {
+    color: $COLOR_BLUE_DARK;
+    border: 1px solid $COLOR_WHITE;
+    background-color: $COLOR_WHITE;
+  }
 }
