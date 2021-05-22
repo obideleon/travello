@@ -6,8 +6,18 @@
   color: $COLOR_WHITE;
 }
 
+.bnt-hero {
+  margin-top: 100px;
+}
+
 #hero {
   height: 100vh;
+}
+
+.hero-image {
+  img {
+    max-height: 530px;
+  }
 }
 
 .hero__subtitle,
