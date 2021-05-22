@@ -1,6 +1,6 @@
-#about {
-  padding-top: 300px;
-}
+// #about {
+//   padding-top: 300px;
+// }
 
 .hero__card-box {
   position: absolute;
@@ -266,9 +266,9 @@
 
 // Media Queries
 @media screen and (min-width: 768px) {
-  #about {
-    padding-top: 350px;
-  }
+  // #about {
+  //   padding-top: 350px;
+  // }
   .hero__card-box {
     transform: translateY(110%);
   }
@@ -287,17 +287,17 @@
 }
 
 @media screen and (min-width: 1200px) {
-  #about {
-    padding-top: 400px;
-  }
+  // #about {
+  //   padding-top: 400px;
+  // }
 
-  .hero__card-box {
-    transform: translateY(95%);
-  }
+  // .hero__card-box {
+  //   margin-bottom: -50%;
+  // }
 
-  .blog__card {
-    height: 560px;
-  }
+  // .blog__card {
+  //   height: 560px;
+  // }
 
   .blog__img-container {
     height: 60%;

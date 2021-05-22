@@ -438,9 +438,6 @@ h3,
   .hero__subtitle {
     margin-top: 105px;
   }
-  .hero__title {
-    margin-bottom: 307px;
-  }
 }
 
 .container {
@@ -762,6 +759,10 @@ h3,
 #blog-and-contact {
   background-color: #11253a;
   color: #fff;
+}
+
+#hero {
+  height: 100vh;
 }
 
 .hero__subtitle,
@@ -1123,10 +1124,6 @@ h3,
   background-color: #fff;
 }
 
-#about {
-  padding-top: 300px;
-}
-
 .hero__card-box {
   position: absolute;
   left: 0;
@@ -1404,9 +1401,6 @@ h3,
 }
 
 @media screen and (min-width: 768px) {
-  #about {
-    padding-top: 350px;
-  }
   .hero__card-box {
     -webkit-transform: translateY(110%);
             transform: translateY(110%);
@@ -1424,16 +1418,6 @@ h3,
 }
 
 @media screen and (min-width: 1200px) {
-  #about {
-    padding-top: 400px;
-  }
-  .hero__card-box {
-    -webkit-transform: translateY(95%);
-            transform: translateY(95%);
-  }
-  .blog__card {
-    height: 560px;
-  }
   .blog__img-container {
     height: 60%;
   }
