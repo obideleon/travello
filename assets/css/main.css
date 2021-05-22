@@ -1000,15 +1000,34 @@ h3,
 }
 
 .main-nav .main-nav__link:not(:last-child) {
-  margin-right: 60px;
-  line-height: 40px;
-  padding: 5px 10px;
+  margin-right: 40px;
+  line-height: 50px;
 }
 
-.main-nav .main-nav__link:not(:last-child):hover {
-  border-bottom: 1px solid #fff;
-  -webkit-transition: 0.2s border ease-in-out;
-  transition: 0.2s border ease-in-out;
+.main-nav .main-nav__link:not(:last-child) a {
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+
+.main-nav .main-nav__link:not(:last-child) a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.main-nav .main-nav__link:not(:last-child) a:hover:after {
+  width: 100%;
+  left: 0;
 }
 
 @media screen and (max-height: 450px) {
@@ -1059,8 +1078,8 @@ h3,
 }
 
 .btn:hover {
-  -webkit-transition: 0.2s ease-out;
-  transition: 0.2s ease-out;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
 }
 
 .btn.btn--primary:hover {
@@ -1069,7 +1088,7 @@ h3,
 }
 
 .btn.btn--primary-dark:hover {
-  background-color: #fff;
+  background-color: #11253a;
   color: #52aa7f;
 }
 

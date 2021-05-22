@@ -77,14 +77,33 @@
   }
 
   .main-nav__link:not(:last-child) {
-    margin-right: 60px;
-    line-height: 40px;
-    padding: 5px 10px;
+    margin-right: 40px;
+    line-height: 50px;
+
+    a {
+      display: inline-block;
+      padding-left: 15px;
+      padding-right: 15px;
+      position: relative;
+    }
   }
 
-  .main-nav__link:not(:last-child):hover {
-    border-bottom: 1px solid $COLOR_WHITE;
-    transition: 0.2s border ease-in-out;
+  .main-nav__link:not(:last-child) a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+  .main-nav__link:not(:last-child) a:hover:after {
+    width: 100%;
+    left: 0;
   }
 }
 
