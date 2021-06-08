@@ -945,6 +945,10 @@ h3,
   }
 }
 
+.footer__link a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
 .header__nav {
   padding: 8px 0;
 }
