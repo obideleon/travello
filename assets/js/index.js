@@ -25,7 +25,7 @@ const stickyFn = () =>
 
 // for map
 mapboxgl.accessToken =
-  "pk.eyJ1Ijoib2JpZGVsZW9uIiwiYSI6ImNrazhhNW14NTBpbTMybmxucXFpbW52MTYifQ.ifsqiGFY1vjsmC16Cn7gDA";
+  "pk.eyJ1Ijoib2JpZGVsZW9uIiwiYSI6ImNrcHBqa2ZvbzBhOWkycXM0NGg4YjNpaHYifQ.Mp2vG8sJK0YA_EEuHGsq_A";
 var monument = [-81.10037, 29.29617];
 var map = new mapboxgl.Map({
   container: "map",
