@@ -979,6 +979,8 @@ h3,
 
 .header__nav {
   padding: 8px 0;
+  background-color: #11253a;
+  z-index: 999;
 }
 
 .header__nav-container {
@@ -1051,6 +1053,14 @@ h3,
   margin-left: 50px;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 23px 23px 18px 23px;
+}
+
 .main-nav {
   display: none;
 }
@@ -1076,7 +1086,7 @@ h3,
 .main-nav .main-nav__link:not(:last-child) a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
-  content: '';
+  content: "";
   display: block;
   height: 2px;
   left: 50%;
