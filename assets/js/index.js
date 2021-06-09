@@ -1,9 +1,5 @@
 AOS.init()
 
-function noScroll() {
-  window.scrollTo(0, 0)
-}
-
 function toggleNav(x) {
   x.classList.toggle('change')
 
@@ -12,10 +8,6 @@ function toggleNav(x) {
   )
     ? '100%'
     : '0'
-
-  x.classList.contains('change')
-    ? window.addEventListener('scroll', noScroll)
-    : window.removeEventListener('scroll', noScroll)
 }
 
 // for map
