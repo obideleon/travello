@@ -3,6 +3,22 @@
   margin-left: -0.18rem;
 }
 
+.footer__link a:hover {
+  transition: 0.2s ease;
+}
+
+.fb-icon:hover {
+  fill: #3b5998;
+}
+
+.twitter-icon:hover {
+  fill: #00acee;
+}
+
+.ig-icon:hover {
+  fill: #405de6;
+}
+
 // SOCIAL NAV
 .footer__social-menu {
   display: flex;
