@@ -1,6 +1,6 @@
 # Travello
 
-A travel agency landing page made by [Laaqiq](http://dribbble.com/laaqiq) which I named [Travello](https://www.travello.ml) and made it a responsive web design.
+A travel agency landing page made by [Laaqiq](http://dribbble.com/laaqiq) which I named [Travello](https://travello.robby.tech) and made it a responsive web design.
 
 ## Technologies and Tools Used
 
@@ -10,7 +10,7 @@ A travel agency landing page made by [Laaqiq](http://dribbble.com/laaqiq) which 
 
 ## See it in action
 
-To see it in action please visit [Live Demo](https://www.travello.ml).
+To see it in action please visit [Live Demo](https://travello.robby.tech).
 
 ## Contact
 
@@ -19,6 +19,7 @@ If you like my work and you want to collaborate with me please contact me at [he
 ## Acknowledgment
 
 - [AOS](https://michalsnik.github.io/aos/)
+- [Favicon Generator](https://realfavicongenerator.net/)
 - [Flickity](https://flickity.metafizzy.co/)
 - [Laaqiq](http://dribbble.com/laaqiq)
 - [Pexels](https://www.pexels.com/)
