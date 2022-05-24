@@ -10,7 +10,7 @@ A travel agency landing page made by [Laaqiq](http://dribbble.com/laaqiq) which 
 
 ## See it in action
 
-To see it in action please visit [Live Demo](https://travello.robby.tech).
+To see it in action please visit [Live Demo](travello-kodego.web.app).
 
 ## Contact
 
